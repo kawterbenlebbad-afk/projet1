@@ -3,7 +3,9 @@
 #RADJAI DOUAA
 #Mokhtar khouira chahinez
 #Terbeche Soumia
-#Mfiteh Meriem 
+#Mfiteh Meriem
+import pandas as pd 
+
 
 
 
