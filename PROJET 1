@@ -1,12 +1,30 @@
-# Benlebbad kawter Master1 biologie moléculaire  10/12/2025
+# Benlebbad kawter Master1 biologie moléculaire  12/12/2025
+#Mefiteh meryem
+Radjai douaa
+#Terbeche soumia
+#Mokhtar khouira chahinez
 
-# Mefiteh meryem 
-# Radjai douaa
-# Terbeche soumia
-# Mokhtar khouira chahinez
 import pandas as pd
-# données 
+#Données: Séquences ADN , Longueur, Pourcentage De GC
+Data = {
+      "Séquence" : [ATGCGTACGTA","GCTAGCTAGGCC","ATGCGCGTAAGT","TACGATCGTA","ATGAAAGGCTT","CGTACGTAGC","TTAACCGGAT"],
+      "Longueur" : [11,12,12,10,11,10,10],
+      "Pourcentage GC" : [50,66.67,58.33,40,45.45,60,50]
 
+}
+# 1) Création d'un Dataframe (tableau pandas)
+df = pd.DataFrame(data)
+print("**************** Création et affichage *****************")
+
+# Affichage du tableau 
+print("Tableau des séquences ADN :","\n")
+print(df , "\n" "\n")
+
+#Opérations sur les tableaux :
+print("************** Operations **************")
+# 2) Séléciotnner la colonne "Longueur"
+longueur = df["Longueur"]
+print(longueur, "\n")
 
 
 
