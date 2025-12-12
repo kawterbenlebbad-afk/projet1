@@ -52,10 +52,6 @@ df["nombre de G"] = df ["Séquence"].str.count("G")
 print("======= 7) Nombre de G ajoutés ======")
 print(df, "\n")
 
-# 7) calculer-t l'écartype du %GC et de la longueur des séquences
-print("********** calcul de l'écart-type *************","\n")
-#average_gc = df["l'écart-type du %GC et de la longueur des séquences"]
-print(f"l'écart-type du %GC et de la longueur des séquences : { average_gc: .3f}%")
 
 
 
