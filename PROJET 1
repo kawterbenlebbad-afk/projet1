@@ -22,9 +22,7 @@ print(df , "\n" "\n")
 
 #Opérations sur les tableaux :
 print("************** Operations **************")
-# 2) Séléciotnner la colonne "Longueur"
-longueur = df["Longueur"]
-print(longueur, "\n")
+
 
 
 
