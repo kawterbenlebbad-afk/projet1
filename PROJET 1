@@ -31,6 +31,7 @@ print ( "************** Filtrage avec séquences longueur supérieure à 10 ****
 # Filtrer les séquences dont la langueur est supérieure à 10
 filtred_df = [df["longueur"] > 10]
 print ( filtred _df,"\n")
+
 # 4) Calculer la moyenne du pourcentage de GC avec 3 chiffres aprés la virgule
 print("************* Calcul de la moyenne *************","\n")
 
