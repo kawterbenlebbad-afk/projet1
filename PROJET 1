@@ -34,7 +34,7 @@ print ( filtred _df,"\n")
 # 4) Calculer la moyenne du pourcentage de GC avec 3 chiffres aprés la virgule
 print("************* Calcul de la moyenne *************","\n")
 
-aver_gc = df["Pourcentage GC"].mean() 
+average_gc = df["Pourcentage GC"].mean() 
 print(f"Pourcentage moyen de GC : { average_gc:.3f}%")
 
 # 5) Ajouter une colonne "catégorie GC":
