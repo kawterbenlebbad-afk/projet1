@@ -53,10 +53,10 @@ print(df, "\n")
 
 # 7) calculer l'écar-type du %GC et de la longueur des séquences
 std_gc=df['Pourcentage GC'].std()
-std_longueur=df[longueur].std()
+std_longueur=df["Longueur"].std()
 print(f"\n********Statistique du écart-type*********")
 print(f"Écart-type de %GC:{std_gc:.3f}")
-print(f"Écart-type de la longueur:{std_longueur.3f}")
+print(f"Écart-type de la longueur:{std_longueur:.3f}")
 
 # 8) Sauvgarder le tableau final dans une fichier CSV 
 #Sauvgarder le DataFrame dans un fichier CSV
