@@ -40,6 +40,18 @@ print(f"Pourcentage moyen de GC : { average_gc:.3f}%")
 
 # 5) Ajouter une colonne "catégorie GC":
 print("************** Ajout d'une nouvelle colonne ************")
+# Ajouter une nouvelle colonne "catégorie GC"
+data = {
+       "Catégorie GC":["Riche","Moyen","Faible"],
+       "Pourcentage GC":[">55","≤ 45≤ 55","<45"]
+print
+# 6) Ajouter une colonne comptant les "G"
+df["nombre de G"] = df [équence"].str.count("G")
+
+print("==∞ 7) Nombre de G ajoutés ======")
+print(df, "\n")
+
+# 7)calculer-t l'écartype du  et de la longueur des séquences
 
 
 
