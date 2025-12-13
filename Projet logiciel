@@ -58,7 +58,7 @@ print("l'écart-type du %GC et de la longueur des séquences : { average_gc: .3f
 
 # 8)Sauvgarder le tableau final dans une fichier CSV 
 #Sauvgarder le DataFrame dans un fichier CSV
-df.csv("tableau_séquences.csv", index=False)
+df.to_csv("tableau_séquences.csv", index=False)
 print("df_loaded")
 
 
