@@ -46,9 +46,9 @@ data = {
        "Pourcentage GC":[">55","≤ 45≤ 55","<45"]
 print
 # 6) Ajouter une colonne comptant les "G"
-df["nombre de G"] = df [équence"].str.count("G")
+df["nombre de G"] = df [séquence"].str.count("G")
 
-print("==∞ 7) Nombre de G ajoutés ======")
+print("======= 7) Nombre de G ajoutés ======")
 print(df, "\n")
 
 # 7)calculer-t l'écartype du %GC et de la longueur des séquences
