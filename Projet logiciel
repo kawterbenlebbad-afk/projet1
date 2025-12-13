@@ -55,7 +55,7 @@ print(df, "\n")
 std_gc=df['Pourcentage GC'].std)
 std_longueur=df[longueur].std()
 print(f"\n********Statistique du écart-type*********
-print(f"Écart-type de %GC:{std_gc:.3f})
+print(f"Écart-type de %GC:{std_gc:.3f}")
 print(f"l'Écart-type de la longueur:  {std_longueur}")
 
 # 8) Sauvgarder le tableau final dans une fichier CSV 
