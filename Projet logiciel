@@ -52,9 +52,11 @@ print("======= 7) Nombre de G ajoutés ======")
 print(df, "\n")
 
 # 7) calculer l'écar-type du %GC et de la longueur des séquences
-print("************* calcule de l'écart_type *************","\n")
-#average_gc = df["l'écart-type du %GC et de la longueur des séquences"]
-print(f"l'écart-type du %GC et de la longueur des séquences : { average_gc: .3f}%")
+std_gc=df['Pourcentage GC'].std)
+std_longueur=df[longueur].std()
+print(f"\n********Statistique du écart-type*********
+print(f"Écart-type de %GC:{std_gc:.3f)
+print(f"l'Écart-type de la longueur:  {std_longueur}")
 
 # 8) Sauvgarder le tableau final dans une fichier CSV 
 #Sauvgarder le DataFrame dans un fichier CSV
