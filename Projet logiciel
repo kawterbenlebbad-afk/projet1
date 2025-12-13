@@ -51,12 +51,12 @@ df["nombre de G"] = df ["Séquences"].str.count("G")
 print("======= 7) Nombre de G ajoutés ======")
 print(df, "\n")
 
-# 7)calculer-t l'écartype du %GC et de la longueur des séquences
+# 7) calculer-t l'écartype du %GC et de la longueur des séquences
 print("************* calcule de l'écart_type *************","\n")
 #average_gc = df["l'écart-type du %GC et de la longueur des séquences"]
 print(f"l'écart-type du %GC et de la longueur des séquences : { average_gc: .3f}%")
 
-# 8)Sauvgarder le tableau final dans une fichier CSV 
+# 8) Sauvgarder le tableau final dans une fichier CSV 
 #Sauvgarder le DataFrame dans un fichier CSV
 df.to_csv("tableau_séquences.csv", index=False)
 print("df_loaded")
