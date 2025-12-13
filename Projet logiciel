@@ -48,7 +48,6 @@ data = {
 print(df)
 # 6) Ajouter une colonne comptant les "G"
 df["nombre de G"] = df ["Séquence"].str.count("G")
-
 print("======= 7) Nombre de G ajoutés ======")
 print(df, "\n")
 
