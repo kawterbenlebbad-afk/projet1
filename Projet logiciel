@@ -20,10 +20,10 @@ print ("**************** création et affichage *****************","\n""\n)
 print("Tableau des séquences ADN :", "\n")
 print(df, "\n" "\n")
 
-# Operations sur les tableaux :
-print(************* opérations ***********")
-# 2) selectionner la colonne "Longueur "
-longueur =df ["Longueur "]
+# Opérations sur les tableaux :
+print("************** Operations ***************")
+# 2) séléctionner la colonne "Longueur"
+longueur = df["Longueur"]
 print(longueur, "\n")
 
 
